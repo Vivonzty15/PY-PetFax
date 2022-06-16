@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>create</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <H1>Submit Fact</H1>
+    <form>
+        <label for="submitter"><h3>Name</h3></label>
+        <input name="submitter" type="text">
+        <br/>
+        <label for="fact"><h3>Fact</h3></label>
+        <input name="fact" type="text">
+        <br/>
+        <input type="submit" value="Submit fact">
+    </form>
+    <Button><a href="/pets">Back</a></Button>
+</body>
+</html>
